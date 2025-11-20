@@ -29,4 +29,4 @@ jobs:
           # 將 GitHub Secrets 注入環境變數，Python 腳本就能讀取
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
-        run: python fetch_standings.py
+        run: python scripts/fetch_standings.py
